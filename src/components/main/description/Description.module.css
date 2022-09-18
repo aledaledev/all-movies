@@ -1,0 +1,26 @@
+.description{
+    background-color: rgb(199, 199, 255);
+    position: sticky;
+    z-index: 3;
+    bottom: 0;
+    color:rgb(53, 53, 53);
+    height: 10rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 1rem;
+}
+.descriptionImg{
+    width: max(10rem,25%);
+}
+.closeModal{
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+@media screen and (min-width:768px) {
+    .description{
+        padding: 1rem 15rem;
+    }
+}

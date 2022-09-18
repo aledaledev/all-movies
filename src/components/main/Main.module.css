@@ -1,0 +1,33 @@
+.main{
+    background-color: rgb(243, 240, 237);
+}
+.board{
+    max-width: 968px;
+    margin: 0 auto ;
+    padding: 0 1rem 1rem;
+    display: grid;
+    grid-auto-rows: 13rem;
+    grid-template-columns: repeat(auto-fill,9rem);
+    gap: 1rem;
+    justify-content: center;
+}
+.h1{
+    font-weight: 400;
+    color: darkslategray;
+    padding: 1rem;
+    text-align: center;
+}
+@media screen and (min-width:428px) {
+    .board{
+        grid-auto-rows: 15rem;
+        grid-template-columns: repeat(auto-fill,10rem);
+        gap: 2rem;
+    }
+}
+@media screen and (min-width:768px) {
+    .board{
+        grid-auto-rows: 17rem;
+        grid-template-columns: repeat(auto-fill,12rem);
+        gap: 2rem;
+    }
+}

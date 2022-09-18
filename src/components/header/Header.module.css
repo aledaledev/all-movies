@@ -1,0 +1,37 @@
+.header {
+  padding: 0 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  width: 100vw;
+  height: 4rem;
+  background-color: rgb(184, 178, 216);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: rgb(34, 27, 27);
+  cursor: default;
+}
+.svg {
+  width: 24px;
+}
+.searchInput {
+  width: 10rem;
+  padding: 0.5rem;
+  background-color: #f3f3f3;
+  border: 0;
+}
+.divFlex {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+@media screen and (min-width:568px) {
+  .header{
+    justify-content: space-around;
+  }
+}
